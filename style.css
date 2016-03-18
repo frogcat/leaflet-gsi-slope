@@ -1,0 +1,84 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  maring: 0;
+  padding: 0;
+}
+.geojson-anno {
+  white-space: nowrap;
+  font-size: 12pt;
+  font-family: Meiryo, sans-serif;
+  font-weight: bold;
+  text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff;
+  color: #000000;
+  pointer-events: none;
+}
+.slope {
+  stroke-dasharray: 1 19;
+  stroke-width: 5px;
+  stroke: hsl(220, 0%, 50%);
+}
+.slope1 {
+  animation: geojson-anime 7.43s linear 0s infinite normal;
+  stroke: hsl(220, 50%, 50%);
+}
+.slope2 {
+  animation: geojson-anime 6.19s linear 0s infinite normal;
+  stroke: hsl(240, 50%, 50%);
+}
+.slope3 {
+  animation: geojson-anime 5.16s linear 0s infinite normal;
+  stroke: hsl(260, 50%, 50%);
+}
+.slope4 {
+  animation: geojson-anime 4.30s linear 0s infinite normal;
+  stroke: hsl(280, 50%, 50%);
+}
+.slope5 {
+  animation: geojson-anime 3.58s linear 0s infinite normal;
+  stroke: hsl(300, 50%, 50%);
+}
+.slope6 {
+  animation: geojson-anime 2.99s linear 0s infinite normal;
+  stroke: hsl(320, 50%, 50%);
+}
+.slope7 {
+  animation: geojson-anime 2.49s linear 0s infinite normal;
+  stroke: hsl(340, 50%, 50%);
+}
+.slope8 {
+  animation: geojson-anime 2.07s linear 0s infinite normal;
+  stroke: hsl(0, 50%, 50%);
+}
+.slope9 {
+  animation: geojson-anime 1.73s linear 0s infinite normal;
+  stroke: hsl(20, 50%, 50%);
+}
+.slope10 {
+  animation: geojson-anime 1.44s linear 0s infinite normal;
+  stroke: hsl(40, 50%, 50%);
+}
+.slope11 {
+  animation: geojson-anime 1.20s linear 0s infinite normal;
+  stroke: hsl(60, 50%, 50%);
+}
+.slope12 {
+  animation: geojson-anime 1.00s linear 0s infinite normal;
+  stroke: hsl(60, 50%, 50%);
+}
+@keyframes geojson-anime {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 20;
+  }
+}
