@@ -1,0 +1,19 @@
+{
+  "name": "leaflet-gsi-slope",
+  "version": "1.0.0",
+  "description": "[WIP] leaflet-gsi-slope",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frogcat/leaflet-gsi-slope.git"
+  },
+  "author": "frogcat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frogcat/leaflet-gsi-slope/issues"
+  },
+  "homepage": "https://github.com/frogcat/leaflet-gsi-slope#readme"
+}
