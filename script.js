@@ -185,8 +185,8 @@
     maxZoom: 20,
     minZoom: 2
   }, L.Hash.parseHash(location.hash) || {
-    zoom: 15,
-    center: [35.6707, 139.7852]
+    zoom: 17,
+    center: [35.65807, 139.70193]
   }));
 
   map.zoomControl.setPosition("bottomright");
